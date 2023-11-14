@@ -32,6 +32,7 @@ cmd上的效果：
 当我们对仓库进行多次更新之后，可以通过`git log`指令查看各个版本的修改情况：
 >![Alt text](image-3.png)
 
+
 第一个版本中的`(HEAD -> master)`表示当前的最新版本。
 
 通过` git reset --hard HEAD^`指令可以将仓库回退到上一个版本，其中`^`的数量表示向后回退的版本数，当需要回退的版本过多时可以用`~+数字`回退多个版本，例如回退100个版本：`~100`。
@@ -50,3 +51,6 @@ cmd上的效果：
 创建远程仓库之前首先要在git上创建一个自己的密钥，使用指令`ssh-keygen -t rsa -C "youremail@example.com"`即可创建自己的ssh密钥。创建成功后，打开目录`.ssh`将目录下的`id_rsa.pu`文件打开，复制内容粘贴到github上的add ssh key里面，点击确认，密钥就算提交成功了。
 
 在GitHub上创建仓库后，在本地仓库下运行命令` git remote add origin git@github.com:<用户名>/<github仓库名>.git`即可将自己的本地库与github上的库远程关联，再使用指令`git push -u origin master`即可将本地仓库当前版本的master推送到github的关联仓库。
+
+## 6.github的fork和pull request
+在别人的仓库里点击右上方的fork，可以将别人的仓库在我的github上创建一个分支，然后再通过我的分支对这个仓库进行修改，点击pull request，原仓库的作者会决定是否接受修改，若我的修改被仓库的原主采纳，原仓库才真正被我修改了。
