@@ -15,3 +15,5 @@
 [css学习笔记](https://github.com/laimaxgg/Tasks/blob/master/Note_Of_css.md)
 
 [JavaScritp学习笔记](https://github.com/laimaxgg/Tasks/blob/master/Note_Of_JavaScript.md)
+
+[demo网站](laimaxgg.github.io)
