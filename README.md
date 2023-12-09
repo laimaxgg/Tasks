@@ -16,4 +16,4 @@
 
 [JavaScritp学习笔记](https://github.com/laimaxgg/Tasks/blob/master/Note_Of_JavaScript.md)
 
-<laimaxgg.github.io>
+[复刻](https://laimaxgg.github.io)
